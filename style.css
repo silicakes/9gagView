@@ -1,0 +1,52 @@
+body {
+	font-size: 12px;
+	font-family: tahoma;
+	background: #fff;
+}
+
+.loading {
+	display: block;
+	width: 50px;
+	height: 50px;
+	background:url(images/loading.gif);
+}
+
+.error-box {
+	display: none;
+	width: 100%;
+	border: 3px solid red;
+	color: #ccc;
+	text-align: center;
+}
+
+.fragment {
+	background: #fff;
+	border: 1px solid #ccc;
+	width: 350px;
+	overflow: hidden;
+	padding: 10px;
+	color: #444;
+	display: none;
+	margin: 0 auto 10px;
+}
+
+.fragment .title {
+	font-weight: bold;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.fragment img {
+	display: block;
+	margin-bottom: 10px;
+	max-width: 350px;
+}
+
+.fragment a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.fragment a:hover {
+	text-decoration: underline;
+}
